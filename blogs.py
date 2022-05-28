@@ -46,6 +46,8 @@ class blogs(base):
     def make_dict(self):
         return {'Author': self.Author, 'Title': self.Title, 'Content': self.Content, 'DatePost': self.DatePost}
 
+    
+# def функции для каждого класса для подключения и вывода данных в запросе к sql в обратном айди порядке
 def get_blogs_():
     conns = engine.connect()
     with conns as conn:
