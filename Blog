@@ -1,8 +1,0 @@
-package com.example.app_serv
-
-data class Blog(
-    val Author: String,
-    val BlogID: Int,
-    val Title: String,
-    val Content: String,
-    val DatePost: String)
